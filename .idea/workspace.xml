@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb209c00-614a-49ec-8e00-705213ba183d" name="Changes" comment="">
+    <list default="true" id="bb209c00-614a-49ec-8e00-705213ba183d" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinem/repository/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinem/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sinem/Test02_DisplayName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sinem/Test03_AssertUsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sinem/Test04_KosulluTestler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sinem/Test05_Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sinem/Test06_TekrarEdenTestler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sinem/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinem/Islemler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinem/Islemler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinem/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinem/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sinem/IslemlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sinem/IslemlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sinem/Test01_YasamDongusu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sinem/Test01_YasamDongusu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +62,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,8 +71,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Test01_YasamDongusu">
-    <configuration name="IslemlerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sinem.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Test06_TekrarEdenTestler.getPostListTest2">
+    <configuration name="Test05_Parameters.saveUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -76,7 +93,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.sinem.IslemlerTest&quot;" />
+            <option value="&quot;com.sinem.Test05_Parameters.saveUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -86,7 +103,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IslemlerTest.bolmeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Test06_TekrarEdenTestler.getPostListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -99,7 +116,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.sinem.IslemlerTest.bolmeTest&quot;" />
+            <option value="&quot;com.sinem.Test06_TekrarEdenTestler.getPostListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -109,7 +126,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test01_YasamDongusu" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Test06_TekrarEdenTestler.getPostListTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -122,7 +139,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.sinem.Test01_YasamDongusu&quot;" />
+            <option value="&quot;com.sinem.Test06_TekrarEdenTestler.getPostListTest2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,7 +149,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test01_YasamDongusu.test01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserServiceTest.saveErrorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +162,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.sinem.Test01_YasamDongusu.test01&quot;" />
+            <option value="&quot;com.sinem.service.UserServiceTest.saveErrorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +172,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test01_YasamDongusu.test02" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserServiceTest.saveTestSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +185,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.sinem.Test01_YasamDongusu.test02&quot;" />
+            <option value="&quot;com.sinem.service.UserServiceTest.saveTestSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Test01_YasamDongusu" />
-        <item itemvalue="Gradle.Test01_YasamDongusu.test02" />
-        <item itemvalue="Gradle.Test01_YasamDongusu.test01" />
-        <item itemvalue="Gradle.IslemlerTest" />
-        <item itemvalue="Gradle.IslemlerTest.bolmeTest" />
+        <item itemvalue="Gradle.Test06_TekrarEdenTestler.getPostListTest2" />
+        <item itemvalue="Gradle.Test06_TekrarEdenTestler.getPostListTest" />
+        <item itemvalue="Gradle.UserServiceTest.saveErrorTest" />
+        <item itemvalue="Gradle.UserServiceTest.saveTestSuccess" />
+        <item itemvalue="Gradle.Test05_Parameters.saveUser" />
       </list>
     </recent_temporary>
   </component>
@@ -196,15 +213,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690919194822</updated>
-      <workItem from="1690919196116" duration="2985000" />
+      <workItem from="1690919196116" duration="3111000" />
+      <workItem from="1690950932262" duration="4320000" />
+      <workItem from="1690996841989" duration="6349000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1690922257773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690922257773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JUnitTest$IslemlerTest_bolmeTest.ic" NAME="IslemlerTest.bolmeTest Coverage Results" MODIFIED="1690920308708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JUnitTest$UserServiceTest_saveTestSuccess.ic" NAME="UserServiceTest.saveTestSuccess Coverage Results" MODIFIED="1691039729499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JUnitTest$UserServiceTest_saveErrorTest.ic" NAME="UserServiceTest.saveErrorTest Coverage Results" MODIFIED="1691039834446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/JUnitTest$IslemlerTest.ic" NAME="IslemlerTest Coverage Results" MODIFIED="1690920519937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/JUnitTest$IslemlerTest_toplaTest.ic" NAME="IslemlerTest.toplaTest Coverage Results" MODIFIED="1690920043026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
